@@ -4,6 +4,7 @@
   "description": "",
   "main": "hof.js",
   "dependencies": {
+    "figlet": "^1.2.1",
     "normalize.css": "^8.0.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
@@ -12,6 +13,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "autoprefixer": "^9.4.7",

@@ -1,9 +1,8 @@
-.header {
-  background-color: orange;
-  color: white;
+.footer {
+  background: orange;
+  
   text-align: center;
-
-  h1 {
+  p {
     color: white;
     font-size: 40px;
   }
@@ -12,5 +11,3 @@
     padding: 40px;
   }
 }
-
-

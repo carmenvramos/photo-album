@@ -1,24 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import animal1 from '../assets/animal1.jpg';
-import animal2 from '../assets/animal2.jpg';
+import Photo from './Photo';
 
-function Animals({ animals }) {
-  const listOfAnimals = animals.map(name => {
-    // const li = document.createElement('li');
-    // li.textContent = name;
-    return <li key={name}>{name}</li>;
+function Photos({ urls }) {
+  const listOfUrls = urls.map(url => {
+    return (
+      <li key={url}>
+        <Photo url={url}/>
+      </li>
+    );
   });
+
   return (
     <ul>
-      <img src={animal1} />
-      <img src={animal2} />
-      {listOfAnimals}
+      <li>{listOfUrls}</li>
     </ul>
   );
 }
 
-Animals.propTypes = {
-  animals: PropTypes.array.isRequired
+Photos.propTypes = {
+  urls: PropTypes.array.isRequired
 };
 
+export default Photos;

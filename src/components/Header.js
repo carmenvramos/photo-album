@@ -5,7 +5,7 @@ function Header() {
   console.log(styles);
   return (
     <header className={styles.header} >
-      <h1>Animals with an Attitude</h1>
+      <h1>Animal Photo Album</h1>
     </header> 
   );
 }

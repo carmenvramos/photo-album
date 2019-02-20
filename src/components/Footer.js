@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './Footer.css';
 
 function Footer() {
   return (
-    <footer>
-      <h2>Carmen</h2>
+    <footer className={styles.footer}>
+      <p>Collections By Carmen</p>
     </footer> 
   );
 }
