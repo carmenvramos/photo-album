@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Photo from './Photo';
+// import './Photos.css';
 
 function Photos({ urls }) {
   const listOfUrls = urls.map(url => {

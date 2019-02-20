@@ -1,14 +1,15 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Photos from './Photos';
+import styles from './PhotoAlbum.css';
 
 
 function PhotoAlbum({ title, photos }) {
   return (
-    <Fragment>
+    <section className={styles.album}>
       <h1>{ title }</h1>
       <Photos urls={photos} />
-    </Fragment>
+    </section>
   );
 }
 
