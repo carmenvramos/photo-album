@@ -1,4 +1,4 @@
-// 1st React App
+// *** 1st React App ***
 // import React from 'react';
 
 // function App() {
@@ -9,7 +9,7 @@
 
 // export default App;
 
-// 2nd React App
+// *** 2nd React App ***
 // import React from 'react';
 
 // function App() {
@@ -25,7 +25,7 @@
 
 // export default App;
 
-// 3rd React App
+// *** 3rd React App ***
 // import React, { Fragment } from 'react';
 
 // function App() {
@@ -47,7 +47,7 @@
 //   );
 // }
 
-// Extract components to each file
+// *** Extract components to each file ***
 
 import React, { Fragment } from 'react';
 import Header from './Header';

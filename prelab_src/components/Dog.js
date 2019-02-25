@@ -13,4 +13,4 @@ Dog.propTypes = {
   name: PropTypes.string.isRequired
 };
 
-export default Dog
+export default Dog;

@@ -14,7 +14,7 @@ function Photos({ urls }) {
 
   return (
     <ul>
-      <li>{listOfUrls}</li>
+      {listOfUrls}
     </ul>
   );
 }

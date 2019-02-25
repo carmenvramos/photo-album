@@ -7,8 +7,6 @@ import tree2 from '../assets/tree2.jpg';
 
 function Dogs({ dogs }) {
   const listOfDogs = dogs.map(name => {
-    // const listOfDogs = ['rover', 'spot', 'bingo'].map(name => {
-    // li.textContent = name;
     return <li key={name}><Dog name={name} /></li>;
   });
   return (
